@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+
+:root {
+  --color-primary: #e8845a;
+  --color-primary-dark: #d9734a;
+  --color-primary-light: #fff3ee;
+  --color-bg-left: #fbf7f5;
+  --color-border: #ece4df;
+  --color-badge-alert: #cf6a4d;
+  --color-text-primary: #27303f;
+  --color-text-secondary: #5f6675;
+  --color-text-muted: #9097a4;
+  --color-event-class-bg: #fff3ee;
+  --color-event-class-text: #b75d37;
+  --color-event-meet-bg: #f8f1eb;
+  --color-event-meet-text: #8e694f;
+  --color-page-bg: #f7f8fa;
+  --radius-card: 14px;
+  --radius-bubble: 14px;
+  --left-width: 380px;
+
+  /* shadow scale */
+  --shadow-xs: 0 1px 3px 0 rgba(39, 48, 63, .06);
+  --shadow-sm: 0 4px 12px 0 rgba(39, 48, 63, .08);
+  --shadow-md: 0 10px 24px 0 rgba(39, 48, 63, .10);
+  --shadow-lg: 0 16px 40px 0 rgba(39, 48, 63, .12);
+
+  /* depth border (Duolingo-style bottom edge) */
+  --depth-primary: 0 3px 0 0 #c7633c;
+  --depth-alert:   0 3px 0 0 #a94c34;
+  --depth-neutral: 0 3px 0 0 #ddd4cf;
+
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-size: 120%;
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  background: var(--color-page-bg);
+}
